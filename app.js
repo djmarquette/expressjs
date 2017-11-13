@@ -51,6 +51,6 @@ app.post('/', function (req, res) {
 
 function getCompany(){
   var company = new company("Marquette, Inc");
-  return company;
+  return company.json;
   //return {"name": "Marquette, Inc.", "address": "123 Main Street"};
 }
